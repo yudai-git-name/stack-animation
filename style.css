@@ -1,0 +1,50 @@
+
+
+body {
+	background-color: #222222;
+	color: #fff;
+	font-family: 'Inter', sans-serif;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+.wrapper {
+	height: 100vh;
+}
+
+.list {
+	height: 100%;
+	position: relative;
+}
+
+.item {
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0%;
+	right: 0%;
+	overflow: clip;
+}
+
+.heading2 {
+	z-index: 1;
+	font-weight: 500;
+	position: absolute;
+	top: auto;
+	bottom: 1rem;
+	left: auto;
+	right: 1rem;
+	font-size: clamp(1.375rem, 0.979rem + 1.69vw, 2.5rem);
+}
+
+.img {
+	object-fit: cover;
+	object-position: 50% 100%;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0%;
+	right: 0%;
+}
